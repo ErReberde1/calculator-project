@@ -1,0 +1,34 @@
+.container-calculator-botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    width: 100%;
+    
+    
+}
+.container-calculator-pantalla{
+    position: relative;
+}
+
+.container-calculator-botones span{
+    
+    border: rgb(243, 243, 243) groove ;
+    border-radius: 5px;
+}
+.container-calculator-pantalla-input{
+
+  
+    box-sizing: content-box;
+    width: 100%;
+    height: 10vh;
+}
+.container-calculator {
+    
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border: red solid;
+    position: relative;
+    background-color: skyblue;
+}
