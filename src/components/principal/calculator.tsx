@@ -130,7 +130,7 @@ export default function Calculator() {
         <div className="elemento_after_4"></div>
         <div className='container-calculator-pantalla'>
           <p>{reserva}</p>
-          <input onKeyPress={handleKeyPress} value={valor} autoFocus onChange={onChangeHandler} type= "text" id="input"className='container-calculator-pantalla-input' pattern='[0-9]{9}'/>
+          <input inputMode='none' onKeyPress={handleKeyPress} value={valor} autoFocus onChange={onChangeHandler} type= "text" id="input"className='container-calculator-pantalla-input' pattern='[0-9]{9}'/>
         </div>
           
         <div className='container-calculator-botones'>
