@@ -72,11 +72,20 @@
     background-color:black
 }
 @media screen and (max-width:320px){
+    .container-calculator-pantalla{
+       
+    }
+    .container-calculator-pantalla p{
+        
+        height: 5vh;
+        width: 50vw
+    }
     .container-calculator-pantalla-input{
         height:20vw;
         width: 60vw;
-        margin-top: 20vh;
-        margin-left: 0vw
+        margin-top: 5vh;
+        margin-left: 0vw;
+       
     }
     .container-calculator {
         width: 70vw
@@ -126,7 +135,7 @@
 
 .elemento_after_1:after{
     content:"";
-    background-color: red;
+    background-color: black;
     padding: 1.5vh 0.5vw;
     position: absolute;
     right: 30.8vw;
@@ -136,7 +145,7 @@
 
 .elemento_after_2:after{
     content:"";
-    background-color: yellow;
+    background-color: black;
     padding: 3vh 0.5vw;;
     position: absolute;
     right: 30.8vw;
@@ -154,7 +163,7 @@
 }
 .elemento_after_4:after{
     content:"";
-    background-color: orange;
+    background-color: black;
     padding: 3vh 0.5vw;
     position: absolute;
     right: 30.8vw;

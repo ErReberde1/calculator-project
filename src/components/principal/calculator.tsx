@@ -31,12 +31,14 @@ export default function Calculator() {
         case "multiplicacion":
           if (reserva !== 0 && !valor){
             setOperador("multiplicacion")
+          
           }else if(reserva==0) {
             setReserva(Number(valor))
             setValor("")
             setOperador("multiplicacion")
           } else {
             setReserva(reserva * Number(valor))
+            setValor("")
           }
           break
         case "division":
@@ -48,6 +50,7 @@ export default function Calculator() {
             setOperador("division")
           } else {
             setReserva(reserva / Number(valor))
+            setValor("")
           }
           break
         case "porcentaje":
@@ -60,6 +63,7 @@ export default function Calculator() {
             setOperador("")
           } else {
             setReserva(Number(valor)*0.01)
+            setValor("")
           }
           break
         case "resultado":
